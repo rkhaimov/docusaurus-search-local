@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`processDocInfos processDocInfos works for rootDocs 1`] = `
+Array [
+  Object {
+    "filePath": "\\\\build\\\\index.html",
+    "type": "docs",
+    "url": "/",
+  },
+  Object {
+    "filePath": "\\\\build\\\\introduction\\\\index.html",
+    "type": "docs",
+    "url": "/introduction",
+  },
+  Object {
+    "filePath": "\\\\build\\\\pluralize\\\\index.html",
+    "type": "docs",
+    "url": "/pluralize",
+  },
+]
+`;

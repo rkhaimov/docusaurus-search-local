@@ -13,7 +13,7 @@ export function postBuildFactory(config: ProcessedPluginOptions) {
   return async function postBuild(buildData: PostBuildData): Promise<void> {
     debugInfo("gathering documents");
 
-    const data = processDocInfos(buildData, config);
+    const data = processDocInfos(buildData);
 
     debugInfo("parsing documents");
 
