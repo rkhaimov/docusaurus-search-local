@@ -1,9 +1,9 @@
 {
-  "name": "@easyops-cn/docusaurus-search-local",
+  "name": "@khaimov/docusaurus-search-local",
   "version": "0.18.2",
   "description": "An offline/local search plugin for Docusaurus v2.",
-  "repository": "https://github.com/easyops-cn/docusaurus-search-local",
-  "homepage": "https://github.com/easyops-cn/docusaurus-search-local",
+  "repository": "https://github.com/rkhaimov/docusaurus-search-local",
+  "homepage": "https://github.com/rkhaimov/docusaurus-search-local",
   "scripts": {
     "test": "jest",
     "start": "concurrently -k -n client,server \"npm run start:client\" \"npm run start:server\"",
